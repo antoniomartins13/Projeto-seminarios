@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.home-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/background-netflix.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-topo{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.home-topo img{
+    width: 180px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.home-corpo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    height: 70vh;
+}
+
+.home-corpo-container h2{
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.home-corpo-container p{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.home-corpo-container a{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 15px 20px;
+    background-color: #df0404;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.home-corpo-container a:hover{
+    background-color: #bb0101;
+}
